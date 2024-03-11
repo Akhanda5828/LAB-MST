@@ -1,0 +1,6 @@
+runtime: python39  # Adjust the runtime if needed
+
+handlers:
+- url: /.*
+  static_files: resume.html
+  upload: resume.html
